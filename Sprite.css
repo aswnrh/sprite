@@ -1,0 +1,371 @@
+ *{
+    font-family: 'Aktiv Grotesk Cd Trial', sans-serif;
+    /* font-family: 'Aktiv Grotesk Ex Trial', sans-serif;
+    font-family: 'Aktiv Grotesk VF Trial', sans-serif;
+    font-family: 'Aktiv Grotesk Trial', sans-serif; */
+}
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+
+.bar{
+    background-color: #009b4e;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 90px;
+    top: 0;
+}
+
+.img1{
+    width: 130;
+}
+
+.logo{
+    padding-top: 20px;
+    padding-left: 43px;
+}
+
+.mainmenu{
+    display: flex;
+    margin-left: 70;
+
+}
+.menu{
+    color: white;
+    margin-left: 18;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 19;
+    letter-spacing: -0.9;
+    margin-bottom: 0px;
+    margin-right: -20px;
+    width: 100;
+}
+.menu:hover{
+    color: black;  
+    cursor: pointer;
+}
+.spritebar1{
+    margin-left: -20px;
+}
+.spritebar{
+    margin-left: -60px;
+}
+.spritebar2{
+    margin-left: -70px;
+}
+
+.icons{
+    display: flex;
+    padding-left: 500px;
+    padding-top: 33px;
+    padding-right: 90px;
+    margin-left: -90px;
+}
+
+.icon{
+    width: 20px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.iconuser{
+    margin-left: 40px;
+}
+.main-1{
+    background-color: black;
+    width: 100%;
+    height: 680px;
+}
+.box1{
+display: flex;
+flex-direction: column;
+width: 50%;
+background-color: black;    
+height: 690px;
+float: left;
+align-items: flex-end;
+}
+
+.box2{
+    width: 50%;
+    float: left;
+    height: 690px;
+    background-color: black;
+}
+.imglem{
+    width: 100%;
+    margin-top: 90;
+}
+
+.m1,.m2,.m3{
+    background-color: green;
+    width: 100%;
+    height: 300;
+
+
+}
+.m1{
+    background-color: black;
+    height: 400;
+}
+
+.sumimg{
+    width: 400;
+    margin-top: 160px;
+    margin-left: 60;
+}
+.m2{
+    color: white;
+    font-size: 60px;
+    letter-spacing: -3;
+    font-weight: 900;
+    width: 80%;
+    margin-right: 100;
+    background-color: black;
+}
+.m3{
+    background-color: black;
+}
+
+.learnbutton{
+    background-color: #FFD100;
+    border: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    padding-left: 34px;
+    padding-right:34px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 60px;
+    margin-top: 25px;
+    letter-spacing: -1px;
+}
+.learnbutton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
+.main-2{
+    width: 100%;
+    height: 400px;
+   display: flex;
+   margin-top: 10px;
+}
+
+.n1{
+    width: 50%;
+    height: 120px;
+}
+
+.girlsprite{
+    margin-top: 38px;
+    margin-left: 138px;
+    width: 560px;
+}
+/* 
+.n2{
+    width: 50%;
+} */
+.n2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: -1;
+}
+.n2-1,.n2-2,.n2-3{
+    width: 100%;
+    height: 200;
+    }
+
+.n2-1{
+    color: black;
+    font-size: 50px;
+    letter-spacing: -3;
+    font-weight: 1000;
+    height: 200px;
+    margin-top: -20;
+}
+
+.n2-2{
+    color: black;
+    font-size: 23;
+    font-weight: 900;
+    height: 200px;
+    line-height: 1.2em;
+    letter-spacing: -1px;
+    margin-top: -12;
+}
+
+.n2-3{
+margin-top: 110px;
+}
+.shopbutton{
+    background-color: #FFD100;
+    border: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 900;
+    padding-left: 50;
+    padding-right: 50;
+    padding-top: 7px;
+    padding-bottom:7px;
+    margin-left: 10px;
+    margin-top: -60px;
+    letter-spacing: -1px;
+}
+.shopbutton:hover{
+    background-color: #474747;;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.Msgbutton{
+    background-color: #009b4e;
+    margin-top: 5px;
+    margin-left: 550;
+    height: 33px;
+    width: 44px;
+    border-radius: 3px;
+}
+.but{
+margin-left: 105;
+}
+
+.svgbutton{
+    width: 16px;
+    margin-top: -7;
+}
+
+.Msgbutton:hover{
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.main-3{
+    width: 100%;
+    height: 470px;
+   display: flex;
+}
+
+.greentext{
+    color: #009b4e;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: var(--font-family-alternative);
+    letter-spacing: -1.5px;
+    padding:80px;
+    margin-left: 44px;
+}
+.greenimg{
+    height: 438px;
+    margin-left: 55px;
+    margin-top: 32px;
+}
+
+.main-4{
+    display: flex;
+    background-color: #009b4e;
+    height: 300px;
+}
+
+.main4-1{
+    
+    padding-left: 225;
+    padding-top: 100px;
+}
+.logo4{
+    width: 167.75px;
+    height: 63.7px;
+}
+.main4-2{
+    padding: 80;
+}
+
+.connect{
+    font-size: 12px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-left: 68px;
+    padding-bottom: 35px;
+    margin-top: -22;
+}
+
+.main4-2-2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 55;
+    margin-top: 15;
+}
+
+.footicon{
+    width: 25px;
+    padding: 1.5;
+}
+
+
+.products{
+    font-size: 13px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: -1px;
+    padding: 46px;
+    margin-left: 122px;
+    margin-bottom: 0px;
+}
+
+.hv:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.1s;
+   
+}
+
+.footer{
+    background-color: #009b4e;
+    height: 120px;
+    margin-top: -16px;
+
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 14.5px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-top: 19;
+}
+
+.coc:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lastfoot{
+    color: white;
+    text-align: center;
+    font-size: 14.5px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.foothv{
+    letter-spacing: -1px;
+}
+.foothv:hover{
+    color: black;
+    cursor: pointer;
+}
+
